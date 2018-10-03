@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>This is My server </h1>
+      <button class="btn btn-primary" (click)="onAddServer()">Add Server</button>
+      <br><br>
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let server of servers; let i = index"
+        (click)="onRemoteServer(i)">{{ server }}</li>
+      </ul>
+    </div>
+  </div>
+</div>

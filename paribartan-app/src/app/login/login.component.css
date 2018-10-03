@@ -1,0 +1,29 @@
+form {
+  margin-top: 130px;
+  box-shadow: 0px 0px 10px 1px royalblue;
+  border-radius: 10px;
+  padding: 30px;
+  margin-left: -20px;
+}
+h3,a {
+  color: white;
+  text-align: center;
+}
+a:hover {
+  color: #da24a3;
+}
+.btn {
+  padding-left: 40%;
+}
+.fa {
+    color: #58da24;  
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .fa:hover {
+    color: #da24a3;
+  }
+  .btn-primary:hover {
+    background-color: rgb(255, 0, 221);
+    outline: unset;
+  }
